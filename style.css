@@ -52,8 +52,9 @@
 
 .unlimited h1{
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000px;
 }
 
 .unlimited h3{
@@ -323,6 +324,15 @@ padding-left: 10px;
 padding-top: 30px;
 font-size: 13px;
 color: #414141;
+
+
+
+
+
+
+
+
+
 }
 
 /* Responsiveness */
@@ -541,3 +551,216 @@ margin-left: -100px;
 }
 
 }
+
+/* Tablet Responsiveness */
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    .body{
+        height: 650px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .background img{
+        width: 160px;
+        margin-left: 50px;
+    }
+
+    .background button{
+        width: 110px;
+        height: 38px;
+        margin-right: 50px;
+    }
+
+    .unlimited{
+        padding-top: 80px;
+    }
+
+    .unlimited h1{
+        font-size: 45px;
+    }
+
+    .unlimited h3{
+        font-size: 18px;
+    }
+
+    .unlimited p{
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .input{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .input input{
+        width: 300px;
+        height: 50px;
+    }
+
+    .input button{
+        width: 180px;
+        height: 50px;
+    }
+
+    .chocolate{
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    #chocolateimg{
+        width: 100%;
+    }
+
+    .display{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .display img,
+    #idea{
+        height: 220px;
+    }
+
+    .more{
+        padding-left: 50px;
+        font-size: 24px;
+    }
+
+    .enjoy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 20px 30px;
+    }
+
+    .joy{
+        width: 100%;
+        height: 280px;
+    }
+
+    .joy h3{
+        font-size: 22px;
+    }
+
+    .joy p{
+        font-size: 15px;
+    }
+
+    #jom,
+    #joyi,
+    #joyim,
+    #joyimg{
+        margin-left: 180px;
+    }
+
+    .dealer{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dealer p{
+        font-size: 22px;
+    }
+
+    .adress{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .adress input{
+        width: 350px;
+    }
+
+    .adress button{
+        width: 180px;
+        margin-right: 0;
+    }
+
+    .questions a{
+        margin-left: 50px;
+    }
+
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        padding-left: 50px;
+    }
+
+    .footerhen{
+        margin-left: 50px;
+    }
+
+}
+
+/* Laptop Screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+
+    .body{
+        height: 700px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .background img{
+        width: 180px;
+        margin-left: 80px;
+    }
+
+    .background button{
+        margin-right: 80px;
+    }
+
+    .unlimited h1{
+        font-size: 60px;
+    }
+
+    .unlimited p{
+        font-size: 18px;
+    }
+
+    #chocolateimg{
+        width: 100%;
+    }
+
+    .display{
+        justify-content: center;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .display img,
+    #idea{
+        height: 260px;
+    }
+
+    .enjoy{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 20px auto;
+    }
+
+    .joy{
+        width: 240px;
+    }
+
+    .dealer{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
